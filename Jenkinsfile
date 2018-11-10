@@ -1,7 +1,7 @@
 pipeline {
   agent { label 'master' }
   tools {
-	maven 'M3'
+	maven 'Maven 3.5.2'
   }  
   stages {
     stage('checkout') {
@@ -26,4 +26,4 @@ pipeline {
       }
     }
   }
-}
+ }
